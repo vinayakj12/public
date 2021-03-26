@@ -1,0 +1,101 @@
+#booking {
+  text-align: center;
+}
+
+.card:hover .hover-overlay.effect-scale:before, .card_img:hover .hover-overlay.effect-scale:before {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.card:hover .hover-overlay.effect-scale, .card_img:hover .hover-overlay.effect-scale {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+
+.card-block {
+  background: black;
+  color: yellow;
+}
+
+.btn:not(:disabled):not(.disabled):hover {
+  background-color: rgb(255,255,255);
+}
+
+a:hover {
+  color: #0056b3;
+  /*text-decoration: underline;*/
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(255,214,0);
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  background: rgba(255,255,0,0.23);
+  color: rgb(255,214,0);
+  border-bottom: 3px solid yellow;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: yellow;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  /*border: yellow;*/
+}
+
+.navbar-light .navbar-brand:hover {
+  color: #ffff00!important;
+  background: rgba(255,255,0,0.19);
+  border-radius: 22px;
+}
+
+@media (min-width: 1200px) {
+  .rig-column {
+    margin-left: 50px;
+  }
+}
+
+#p1 {
+  text-align: center;
+}
+
+hr {
+}
+
+@media (min-width: 300px) {
+  .col-md-4 {
+  }
+}
+
+.col-md-4 {
+  color: rgb(255,214,0)!important;
+}
+
+.logo {
+  width: 130px;
+  height: 110px;
+}
+
+.logo {
+  width: 130px;
+  height: 110px;
+}
+
+img {
+  height: 150px;
+}
+
+.row {
+}
+
+img {
+  height: 150px;
+}
+
+.card {
+  width: 250px;
+}
+
